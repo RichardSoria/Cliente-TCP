@@ -1,6 +1,6 @@
 package com.example.test;
 
-import clienteTCP.clase.Cliente;
+import ClienteTCP.clase.Cliente;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
@@ -64,7 +64,6 @@ public class TestController implements Initializable {
         alerta.setTitle(titulo);
         alerta.setHeaderText(null);
         Stage alertStage = (Stage) alerta.getDialogPane().getScene().getWindow();
-        alertStage.getIcons().add(new Image(getClass().getResourceAsStream("/images/logo.png")));
         alerta.setContentText(mensaje);
         alerta.showAndWait();
     }

@@ -15,7 +15,7 @@ public class Test extends Application {
         Scene scene = new Scene(fxmlLoader.load(), 500, 280);
 
         stage.setTitle("Sistema de Registro de Asistencia");
-        stage.getIcons().add(new Image(Test.class.getResourceAsStream("/images/logo.png")));
+
 
         stage.setResizable(false);
 
